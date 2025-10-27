@@ -1,0 +1,125 @@
+.Banner{
+  background-color: rgba(135, 207, 235, 0.212);
+  border-radius: 2%;
+  margin-left: 3%;
+  display: flex;
+  height:fit-content;
+  
+}
+.Banner1{
+    background-color:#a3be4c2f ;
+    border-radius: 3%;
+    display: flex;
+    height:fit-content;
+}
+.Banner2{
+    background-color: #d6338418;
+    border-radius: 3%;
+    display: flex; 
+    height: fit-content;
+}
+.Fullbanner{
+    display: block;
+}
+.container,.Fullbanner{
+    display: flex;
+    gap:2%;
+    margin-bottom: 5%;
+    
+}
+
+.parent-card-container{
+    display: flex;
+    justify-content: space-around;
+    height: 12rem;
+    margin-bottom: 5%;
+}
+.child-card-container{
+    width: 12rem;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px beige ;
+    border-radius: 4%;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.new{
+    display: flex;
+    gap:5%;
+    box-shadow: 0px 0px 10px beige;
+}
+.arrival{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.new_arrival{
+    display: flex;
+    gap:3%;
+    margin-left: 2%;
+    border-radius: 4%;
+    margin-bottom: 6%;
+}
+.trending{
+    display: flex;
+    gap:2%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+.trending_1{
+    display: flex;
+    gap:2%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+}
+.Dark{
+    display: flex;
+    box-shadow: 0px 0px 4px beige;
+    margin-left: 3%;
+    background-color: rgba(255, 192, 203, 0.192);
+    border-radius: 4%;
+    padding:20px;
+    
+}
+.Chocolate{
+    display: flex;
+    box-shadow: 0px 0px 4px beige;
+    margin-left: 3%;
+    background-color: rgba(135, 207, 235, 0.196);
+    border-radius: 4%;
+    padding:20px;
+    
+}
+.Dark_Chocolate{
+    display: flex;
+    margin-bottom: 6%;
+}
+.best_selling{
+    display: flex;
+    gap:2%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+}
+.Discount{
+    display: flex;
+    background-color: rgba(135, 207, 235, 0.229) ;
+    padding: 8%;
+    border-radius: 2%;
+    margin-left: 1%;
+    gap:8%;
+    margin-bottom: 8%;   
+}
+.Phone{
+    display: flex;
+    margin-left: 3%;
+    gap:5%;
+    background-color: rgba(255, 235, 205, 0.292);
+    margin-bottom: 6%;
+}
+
+
